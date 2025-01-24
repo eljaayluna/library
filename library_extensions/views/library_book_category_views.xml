@@ -27,3 +27,8 @@
     <menuitem id="menu_library_book_category" name="Book Categories" parent="library.menu_library_root"/>
     <menuitem id="submenu_library_book_category" name="Categories" parent="menu_library_book_category" action="action_library_book_category"/>
 </odoo>
+<record id="action_library_book_category" model="ir.actions.act_window">
+    <field name="name">Book Categories</field>
+    <field name="res_model">library.book.category</field>
+    <field name="view_mode">tree,form</field>
+</record>
